@@ -1,0 +1,19 @@
+PODS:
+  - MaterialActivityIndicator (0.1.0)
+  - SwiftLint (0.24.2)
+
+DEPENDENCIES:
+  - MaterialActivityIndicator (from `../`)
+  - SwiftLint
+
+EXTERNAL SOURCES:
+  MaterialActivityIndicator:
+    :path: ../
+
+SPEC CHECKSUMS:
+  MaterialActivityIndicator: f287f051ba5aaf460c705736b3492679ff75b9a5
+  SwiftLint: 2aa21b96c8d13396a051bc1cb659d2ce1e0075b0
+
+PODFILE CHECKSUM: 18d960989073dabccc1d4a07e491839d9cbb0031
+
+COCOAPODS: 1.4.0

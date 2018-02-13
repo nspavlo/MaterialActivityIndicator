@@ -1,0 +1,6 @@
+use_frameworks!
+
+target 'MaterialActivityIndicator_Example' do
+  pod 'MaterialActivityIndicator', :path => '../'
+  pod 'SwiftLint'
+end
