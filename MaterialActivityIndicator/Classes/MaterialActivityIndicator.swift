@@ -47,6 +47,8 @@ public class MaterialActivityIndicatorView: UIView {
         indicator.strokeColor = color.cgColor
         indicator.fillColor = nil
         indicator.lineWidth = lineWidth
+        indicator.strokeStart = 0.0
+        indicator.strokeEnd = 0.0
         layer.addSublayer(indicator)
     }
 }

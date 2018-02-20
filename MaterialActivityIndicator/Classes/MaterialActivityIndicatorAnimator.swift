@@ -47,7 +47,8 @@ extension MaterialActivityIndicatorAnimator {
         animation.animations = [
             strokeStartAnimation(),
             strokeEndAnimation(),
-            strokeCatchAnimation()
+            strokeCatchAnimation(),
+            strokeFreezeAnimation()
         ]
         animation.repeatCount = .infinity
 
@@ -78,7 +79,18 @@ extension MaterialActivityIndicatorAnimator {
         let animation = CABasicAnimation(key: .strokeStart)
         animation.beginTime = 1
         animation.duration = 0.5
-        animation.fromValue = 0.25
+        animation.fromValue = 0.15
+        animation.toValue = 1
+        animation.timingFunction = CAMediaTimingFunction(name: kCAMediaTimingFunctionEaseInEaseOut)
+
+        return animation
+    }
+
+    private func strokeFreezeAnimation() -> CABasicAnimation {
+        let animation = CABasicAnimation(key: .strokeEnd)
+        animation.beginTime = 1
+        animation.duration = 0.5
+        animation.fromValue = 1
         animation.toValue = 1
         animation.timingFunction = CAMediaTimingFunction(name: kCAMediaTimingFunctionEaseInEaseOut)
 
