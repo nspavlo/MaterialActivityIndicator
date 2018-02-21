@@ -33,7 +33,7 @@ public class MaterialActivityIndicatorView: UIView {
         self.setup()
     }
 
-    public override init(frame: CGRect) {
+    override public init(frame: CGRect) {
         super.init(frame: frame)
         self.setup()
     }
@@ -55,7 +55,7 @@ public class MaterialActivityIndicatorView: UIView {
 
 extension MaterialActivityIndicatorView {
 
-    public override var intrinsicContentSize: CGSize {
+    override public var intrinsicContentSize: CGSize {
         return CGSize(width: 24, height: 24)
     }
 
