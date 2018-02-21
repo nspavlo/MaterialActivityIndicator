@@ -8,14 +8,17 @@
 
 import UIKit
 
+@IBDesignable
 public class MaterialActivityIndicatorView: UIView {
 
+    @IBInspectable
     public var color: UIColor = .red {
         didSet {
             indicator.strokeColor = color.cgColor
         }
     }
 
+    @IBInspectable
     public var lineWidth: CGFloat = 2.0 {
         didSet {
             indicator.lineWidth = lineWidth
