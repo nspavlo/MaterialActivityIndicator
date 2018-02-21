@@ -78,7 +78,7 @@ extension MaterialActivityIndicatorView {
     public func startAnimating() {
         guard !isAnimating else { return }
 
-        animator.setupAnimation(in: indicator)
+        animator.addAnimation(to: indicator)
         isAnimating = true
     }
 

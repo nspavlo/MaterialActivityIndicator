@@ -18,7 +18,7 @@ final class MaterialActivityIndicatorAnimator {
         case rotation = "material.indicator.rotation"
     }
 
-    public func setupAnimation(in layer: CALayer) {
+    public func addAnimation(to layer: CALayer) {
         layer.add(rotationAnimation(), forKey: Animation.rotation.key)
         layer.add(springAnimation(), forKey: Animation.spring.key)
     }
