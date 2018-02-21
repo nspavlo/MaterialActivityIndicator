@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'MaterialActivityIndicator'
-  s.version          = '0.0.2'
+  s.version          = '0.0.3'
   s.summary          = 'Material activity indicator'
   s.description      = <<-DESC
 Material activity indicator (Circular progress indicator)
