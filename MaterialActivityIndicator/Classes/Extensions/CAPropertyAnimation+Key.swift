@@ -9,7 +9,6 @@
 import UIKit
 
 extension CAPropertyAnimation {
-
     enum Key: String {
         var path: String {
             return rawValue

@@ -9,7 +9,6 @@
 import UIKit
 
 final class MaterialActivityIndicatorAnimator {
-
     enum Animation: String {
         var key: String {
             return rawValue
@@ -31,7 +30,6 @@ final class MaterialActivityIndicatorAnimator {
 }
 
 extension MaterialActivityIndicatorAnimator {
-
     private func rotationAnimation() -> CABasicAnimation {
         let animation = CABasicAnimation(key: .rotationZ)
         animation.duration = 4
