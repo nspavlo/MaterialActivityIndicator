@@ -7,10 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3D3F31A9223AF598007A795A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D3F31A8223AF598007A795A /* AppDelegate.swift */; };
+		3D3F31AE223AF598007A795A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D3F31AC223AF598007A795A /* Main.storyboard */; };
+		3D3F31B5223AF5CF007A795A /* DemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* DemoViewController.swift */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACD81AFB9204008FA782 /* DemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* DemoViewController.swift */; };
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
+		ACB36BAAE13FCBFF7F7EB2D2 /* Pods_MaterialActivityIndicatorTV_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E0523A9FEED9F330F1D3A56 /* Pods_MaterialActivityIndicatorTV_Example.framework */; };
 		B8169754EBE76B43F46BAC8E /* Pods_MaterialActivityIndicator_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27C381CEF92A5D2F87083898 /* Pods_MaterialActivityIndicator_Example.framework */; };
 /* End PBXBuildFile section */
 
@@ -19,6 +23,11 @@
 		27C381CEF92A5D2F87083898 /* Pods_MaterialActivityIndicator_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MaterialActivityIndicator_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2E935D60F8A3FECE56FCDCA4 /* Pods-MaterialActivityIndicator_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MaterialActivityIndicator_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MaterialActivityIndicator_Example/Pods-MaterialActivityIndicator_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		35ECD74E8F2A7A73C3A87D2E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		3D3F31A6223AF597007A795A /* MaterialActivityIndicatorTV_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MaterialActivityIndicatorTV_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D3F31A8223AF598007A795A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3D3F31AD223AF598007A795A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3D3F31B1223AF599007A795A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3E0523A9FEED9F330F1D3A56 /* Pods_MaterialActivityIndicatorTV_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MaterialActivityIndicatorTV_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		421C223690CE3B79E69BA5D3 /* Pods-MaterialActivityIndicator_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MaterialActivityIndicator_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-MaterialActivityIndicator_Example/Pods-MaterialActivityIndicator_Example.release.xcconfig"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* MaterialActivityIndicator_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MaterialActivityIndicator_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -27,9 +36,19 @@
 		607FACDA1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		607FACDF1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		9E4CFC6CB40029FE7B110EB9 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		A92DE428CC8B12F038E38C74 /* Pods-MaterialActivityIndicatorTV_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MaterialActivityIndicatorTV_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MaterialActivityIndicatorTV_Example/Pods-MaterialActivityIndicatorTV_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		F15DC3BE43013A5D6C8358CF /* Pods-MaterialActivityIndicatorTV_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MaterialActivityIndicatorTV_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-MaterialActivityIndicatorTV_Example/Pods-MaterialActivityIndicatorTV_Example.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		3D3F31A3223AF597007A795A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACB36BAAE13FCBFF7F7EB2D2 /* Pods_MaterialActivityIndicatorTV_Example.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		607FACCD1AFB9204008FA782 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -41,11 +60,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3D3F31A7223AF598007A795A /* ExampleTV */ = {
+			isa = PBXGroup;
+			children = (
+				3D3F31A8223AF598007A795A /* AppDelegate.swift */,
+				3D3F31AC223AF598007A795A /* Main.storyboard */,
+				3D3F31B1223AF599007A795A /* Info.plist */,
+			);
+			name = ExampleTV;
+			path = MaterialActivityIndicatorTV;
+			sourceTree = "<group>";
+		};
 		607FACC71AFB9204008FA782 = {
 			isa = PBXGroup;
 			children = (
 				607FACF51AFB993E008FA782 /* Podspec Metadata */,
 				607FACD21AFB9204008FA782 /* Example */,
+				3D3F31A7223AF598007A795A /* ExampleTV */,
 				607FACD11AFB9204008FA782 /* Products */,
 				949A0DEFB0AB224057B5DF80 /* Pods */,
 				6A322E92B396F81202B56B47 /* Frameworks */,
@@ -56,6 +87,7 @@
 			isa = PBXGroup;
 			children = (
 				607FACD01AFB9204008FA782 /* MaterialActivityIndicator_Example.app */,
+				3D3F31A6223AF597007A795A /* MaterialActivityIndicatorTV_Example.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -95,6 +127,7 @@
 			isa = PBXGroup;
 			children = (
 				27C381CEF92A5D2F87083898 /* Pods_MaterialActivityIndicator_Example.framework */,
+				3E0523A9FEED9F330F1D3A56 /* Pods_MaterialActivityIndicatorTV_Example.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -104,6 +137,8 @@
 			children = (
 				2E935D60F8A3FECE56FCDCA4 /* Pods-MaterialActivityIndicator_Example.debug.xcconfig */,
 				421C223690CE3B79E69BA5D3 /* Pods-MaterialActivityIndicator_Example.release.xcconfig */,
+				A92DE428CC8B12F038E38C74 /* Pods-MaterialActivityIndicatorTV_Example.debug.xcconfig */,
+				F15DC3BE43013A5D6C8358CF /* Pods-MaterialActivityIndicatorTV_Example.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -111,6 +146,25 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		3D3F31A5223AF597007A795A /* MaterialActivityIndicatorTV_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3D3F31B2223AF599007A795A /* Build configuration list for PBXNativeTarget "MaterialActivityIndicatorTV_Example" */;
+			buildPhases = (
+				8886D2A5BDA7FC36AC87C585 /* [CP] Check Pods Manifest.lock */,
+				3D3F31A2223AF597007A795A /* Sources */,
+				3D3F31A3223AF597007A795A /* Frameworks */,
+				3D3F31A4223AF597007A795A /* Resources */,
+				238A072FB93DC781B889FE19 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MaterialActivityIndicatorTV_Example;
+			productName = MaterialActivityIndicatorTV_Example;
+			productReference = 3D3F31A6223AF597007A795A /* MaterialActivityIndicatorTV_Example.app */;
+			productType = "com.apple.product-type.application";
+		};
 		607FACCF1AFB9204008FA782 /* MaterialActivityIndicator_Example */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 607FACEF1AFB9204008FA782 /* Build configuration list for PBXNativeTarget "MaterialActivityIndicator_Example" */;
@@ -120,7 +174,6 @@
 				607FACCD1AFB9204008FA782 /* Frameworks */,
 				607FACCE1AFB9204008FA782 /* Resources */,
 				0E59C7CCBB51E698D49CE1C5 /* [CP] Embed Pods Frameworks */,
-				8BA8A69C8C41FF23EFB65E74 /* [CP] Copy Pods Resources */,
 				3DEA3BE920334884007691F8 /* ShellScript */,
 			);
 			buildRules = (
@@ -138,10 +191,15 @@
 		607FACC81AFB9204008FA782 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0830;
+				LastSwiftUpdateCheck = 1010;
 				LastUpgradeCheck = 0930;
 				ORGANIZATIONNAME = CocoaPods;
 				TargetAttributes = {
+					3D3F31A5223AF597007A795A = {
+						CreatedOnToolsVersion = 10.1;
+						DevelopmentTeam = 2QLBXZ66VC;
+						ProvisioningStyle = Automatic;
+					};
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
 						LastSwiftMigration = 1010;
@@ -162,11 +220,20 @@
 			projectRoot = "";
 			targets = (
 				607FACCF1AFB9204008FA782 /* MaterialActivityIndicator_Example */,
+				3D3F31A5223AF597007A795A /* MaterialActivityIndicatorTV_Example */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		3D3F31A4223AF597007A795A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D3F31AE223AF598007A795A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		607FACCE1AFB9204008FA782 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -186,7 +253,7 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-MaterialActivityIndicator_Example/Pods-MaterialActivityIndicator_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/MaterialActivityIndicator/MaterialActivityIndicator.framework",
+				"${BUILT_PRODUCTS_DIR}/MaterialActivityIndicator-iOS/MaterialActivityIndicator.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
@@ -195,6 +262,28 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MaterialActivityIndicator_Example/Pods-MaterialActivityIndicator_Example-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		238A072FB93DC781B889FE19 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-MaterialActivityIndicatorTV_Example/Pods-MaterialActivityIndicatorTV_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/MaterialActivityIndicator-tvOS/MaterialActivityIndicator.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MaterialActivityIndicator.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MaterialActivityIndicatorTV_Example/Pods-MaterialActivityIndicatorTV_Example-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		3DEA3BE920334884007691F8 /* ShellScript */ = {
@@ -228,24 +317,40 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		8BA8A69C8C41FF23EFB65E74 /* [CP] Copy Pods Resources */ = {
+		8886D2A5BDA7FC36AC87C585 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputPaths = (
+			inputFileListPaths = (
 			);
-			name = "[CP] Copy Pods Resources";
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
 			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MaterialActivityIndicatorTV_Example-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MaterialActivityIndicator_Example/Pods-MaterialActivityIndicator_Example-resources.sh\"\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		3D3F31A2223AF597007A795A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D3F31A9223AF598007A795A /* AppDelegate.swift in Sources */,
+				3D3F31B5223AF5CF007A795A /* DemoViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		607FACCC1AFB9204008FA782 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -258,6 +363,14 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
+		3D3F31AC223AF598007A795A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3D3F31AD223AF598007A795A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
 		607FACD91AFB9204008FA782 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -277,6 +390,64 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		3D3F31B3223AF599007A795A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A92DE428CC8B12F038E38C74 /* Pods-MaterialActivityIndicatorTV_Example.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_STYLE = Automatic;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 2QLBXZ66VC;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = MaterialActivityIndicatorTV/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "me.pavlo.MaterialActivityIndicatorTV-Example";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 12.1;
+			};
+			name = Debug;
+		};
+		3D3F31B4223AF599007A795A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F15DC3BE43013A5D6C8358CF /* Pods-MaterialActivityIndicatorTV_Example.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2QLBXZ66VC;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = MaterialActivityIndicatorTV/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "me.pavlo.MaterialActivityIndicatorTV-Example";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 12.1;
+			};
+			name = Release;
+		};
 		607FACED1AFB9204008FA782 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -412,6 +583,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		3D3F31B2223AF599007A795A /* Build configuration list for PBXNativeTarget "MaterialActivityIndicatorTV_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D3F31B3223AF599007A795A /* Debug */,
+				3D3F31B4223AF599007A795A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		607FACCB1AFB9204008FA782 /* Build configuration list for PBXProject "MaterialActivityIndicator" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
