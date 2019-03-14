@@ -1,19 +1,23 @@
 PODS:
-  - MaterialActivityIndicator (0.0.2)
+  - MaterialActivityIndicator (0.0.4)
   - SwiftLint (0.24.2)
 
 DEPENDENCIES:
   - MaterialActivityIndicator (from `../`)
   - SwiftLint
 
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - SwiftLint
+
 EXTERNAL SOURCES:
   MaterialActivityIndicator:
-    :path: ../
+    :path: "../"
 
 SPEC CHECKSUMS:
-  MaterialActivityIndicator: f52db600b6add4bbf2d4a53cdcc9f89482379d95
+  MaterialActivityIndicator: 970ad35af2675d707b50c5b76b2457f8df5e94de
   SwiftLint: 2aa21b96c8d13396a051bc1cb659d2ce1e0075b0
 
-PODFILE CHECKSUM: 18d960989073dabccc1d4a07e491839d9cbb0031
+PODFILE CHECKSUM: 37f2e709d9b091b963cec4239c6a18f4b9b35b19
 
-COCOAPODS: 1.4.0
+COCOAPODS: 1.5.3

@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'MaterialActivityIndicator'
-  s.version          = '0.0.4'
+  s.version          = '0.0.5'
   s.summary          = 'Material activity indicator'
   s.description      = <<-DESC
 Material activity indicator (Circular progress indicator)
@@ -13,6 +13,7 @@ Material activity indicator (Circular progress indicator)
   s.social_media_url = 'https://twitter.com/JansPavlovs'
 
   s.ios.deployment_target = '9.0'
+  s.tvos.deployment_target = '9.0'
 
   s.source_files = 'MaterialActivityIndicator/Classes/**/*'
   s.frameworks = 'UIKit'

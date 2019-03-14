@@ -1,6 +1,14 @@
 use_frameworks!
 
+def common
+    pod 'MaterialActivityIndicator', :path => '../'
+    pod 'SwiftLint'
+end
+
 target 'MaterialActivityIndicator_Example' do
-  pod 'MaterialActivityIndicator', :path => '../'
-  pod 'SwiftLint'
+    common
+end
+
+target 'MaterialActivityIndicatorTV_Example' do
+    common
 end
