@@ -53,6 +53,12 @@ public class MaterialActivityIndicatorView: UIView {
         indicator.strokeEnd = 0.0
         layer.addSublayer(indicator)
     }
+
+    public override func didMoveToWindow() {
+        if window != nil && isAnimating {
+            animator.addAnimation(to: indicator)
+        }
+    }
 }
 
 extension MaterialActivityIndicatorView {
@@ -75,7 +81,9 @@ extension MaterialActivityIndicatorView {
     public func startAnimating() {
         guard !isAnimating else { return }
 
-        animator.addAnimation(to: indicator)
+        if window != nil {
+            animator.addAnimation(to: indicator)
+        }
         isAnimating = true
     }
 
