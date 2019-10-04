@@ -1,11 +1,11 @@
 Pod::Spec.new do |s|
   s.name             = 'MaterialActivityIndicator'
-  s.version          = '0.0.5'
+  s.version          = '0.0.6'
   s.summary          = 'Material activity indicator'
   s.description      = <<-DESC
 Material activity indicator (Circular progress indicator)
                        DESC
-  s.swift_version    = '4.2'
+  s.swift_version    = '5.0'
 
   s.homepage         = 'https://github.com/nspavlo/MaterialActivityIndicator'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
