@@ -9,6 +9,8 @@
 import UIKit
 import MaterialActivityIndicator
 
+// MARK: Initialization
+
 class DemoViewController: UIViewController {
     private let indicator = MaterialActivityIndicatorView()
 
@@ -28,13 +30,15 @@ class DemoViewController: UIViewController {
     }
 }
 
-extension DemoViewController {
-    private func setupActivityIndicatorView() {
+// MARK: Private Methods
+
+private extension DemoViewController {
+    func setupActivityIndicatorView() {
         view.addSubview(indicator)
         setupActivityIndicatorViewConstraints()
     }
 
-    private func setupActivityIndicatorViewConstraints() {
+    func setupActivityIndicatorViewConstraints() {
         indicator.translatesAutoresizingMaskIntoConstraints = false
         indicator.centerXAnchor.constraint(equalTo: view.centerXAnchor).isActive = true
         indicator.centerYAnchor.constraint(equalTo: view.centerYAnchor).isActive = true
