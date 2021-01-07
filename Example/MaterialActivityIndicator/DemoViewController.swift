@@ -11,7 +11,7 @@ import MaterialActivityIndicator
 
 // MARK: Initialization
 
-class DemoViewController: UIViewController {
+final class DemoViewController: UIViewController {
     private let indicator = MaterialActivityIndicatorView()
 
     override func viewDidLoad() {

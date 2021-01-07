@@ -8,10 +8,12 @@
 
 import UIKit
 
-@UIApplicationMain
+@main
 class AppDelegate: UIResponder {
     var window: UIWindow?
 }
+
+// MARK: UIApplicationDelegate
 
 extension AppDelegate: UIApplicationDelegate {
     func application(_ application: UIApplication,
