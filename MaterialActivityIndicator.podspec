@@ -11,7 +11,6 @@ Material activity indicator (Circular progress indicator)
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'nspavlo' => 'jans.pavlovs@gmail.com' }
   s.source           = { :git => 'https://github.com/nspavlo/MaterialActivityIndicator.git', :tag => s.version.to_s }
-  s.social_media_url = 'https://twitter.com/JansPavlovs'
 
   s.ios.deployment_target = '9.0'
   s.tvos.deployment_target = '9.0'
