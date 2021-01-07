@@ -19,6 +19,13 @@ This pod requires a deployment target of iOS 9.3 or greater
 
 ## Installation
 
+#### Swift Package Manager
+
+- File > Swift Packages > Add Package Dependency
+- Add `https://github.com/nspavlo/MaterialActivityIndicator`
+
+#### CocoaPods
+
 MaterialActivityIndicator is available through [CocoaPods](http://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
