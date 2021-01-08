@@ -1,4 +1,4 @@
-osx_image: xcode11
+osx_image: xcode12
 language: objective-c
 cache: cocoapods
 podfile: Example/Podfile
@@ -11,5 +11,5 @@ before_script:
   - swiftlint
 
 script:
-  - set -o pipefail && xcodebuild -workspace Example/MaterialActivityIndicator.xcworkspace -scheme Example -sdk iphonesimulator13.0 ONLY_ACTIVE_ARCH=NO | xcpretty
-  - pod lib lint --swift-version=5.0
+  - set -o pipefail && xcodebuild -workspace Example/MaterialActivityIndicator.xcworkspace -scheme Example -sdk iphonesimulator14.0 ONLY_ACTIVE_ARCH=NO | xcpretty
+  - pod lib lint --swift-version=5.3
